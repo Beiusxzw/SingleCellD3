@@ -1,7 +1,8 @@
 define(function (require) {
     var $ = require('../jquery3.4.1.min')
-        d3 = require('../d3.v6')
-        scd3 = require('../singleCellD3')
+        d3 = require('../d3.v6.min')
+        scd3 = require('../singleCellD3.min')
+        genomeviz = require('../genomeviz.min')
 
     var d3_style = {
         margin: {
